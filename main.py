@@ -37,7 +37,7 @@ def check(idx_):
 
 
 while game_is_on:
-    user_guess = screen.textinput(title=f"{len(guessed_states)}/20 Countries Correct",
+    user_guess = screen.textinput(title=f"{len(guessed_states)}/{number_of_states} Countries Correct",
                                   prompt="What's another Country's name?").title()
     if user_guess.title() == "Exit":
         game_is_on = False
